@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-pytest_randomly
-Version  : 3.14.0
-Release  : 53
-URL      : https://files.pythonhosted.org/packages/5a/39/c7f3d515c727532e85220033adb31e560482d2bb3f419d06d6861dd97376/pytest_randomly-3.14.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/5a/39/c7f3d515c727532e85220033adb31e560482d2bb3f419d06d6861dd97376/pytest_randomly-3.14.0.tar.gz
+Version  : 3.15.0
+Release  : 54
+URL      : https://files.pythonhosted.org/packages/c9/d4/6e924a0b2855736d942703dec88dfc98b4fe0881c8fa849b6b0fbb9182fa/pytest_randomly-3.15.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/c9/d4/6e924a0b2855736d942703dec88dfc98b4fe0881c8fa849b6b0fbb9182fa/pytest_randomly-3.15.0.tar.gz
 Summary  : Pytest plugin to randomly order tests and control random.seed.
 Group    : Development/Tools
 License  : MIT
@@ -56,10 +56,10 @@ python3 components for the pypi-pytest_randomly package.
 
 
 %prep
-%setup -q -n pytest_randomly-3.14.0
-cd %{_builddir}/pytest_randomly-3.14.0
+%setup -q -n pytest_randomly-3.15.0
+cd %{_builddir}/pytest_randomly-3.15.0
 pushd ..
-cp -a pytest_randomly-3.14.0 buildavx2
+cp -a pytest_randomly-3.15.0 buildavx2
 popd
 
 %build
@@ -67,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1692116013
+export SOURCE_DATE_EPOCH=1692143735
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 export FCFLAGS="$FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
