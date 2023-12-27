@@ -5,7 +5,7 @@
 #
 Name     : pypi-pytest_randomly
 Version  : 3.15.0
-Release  : 55
+Release  : 56
 URL      : https://files.pythonhosted.org/packages/c9/d4/6e924a0b2855736d942703dec88dfc98b4fe0881c8fa849b6b0fbb9182fa/pytest_randomly-3.15.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c9/d4/6e924a0b2855736d942703dec88dfc98b4fe0881c8fa849b6b0fbb9182fa/pytest_randomly-3.15.0.tar.gz
 Summary  : Pytest plugin to randomly order tests and control random.seed.
